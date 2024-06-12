@@ -40,3 +40,32 @@ class Murspial(Mammal):
 
     def carry_baby(self):
         print(f"{marsupial} is carrying its baby")
+
+
+
+class Aviary():
+    def __init__(self):
+        self.birds = [] 
+    def add_birds(self, Bird):
+        self.birds.append(Bird)
+
+
+class ReptileEnclosure():
+    def __init__(self):
+        self.reptiles = []
+    def add_reptiles(self, Reptile):
+        self.reptiles.append(Reptile)
+
+
+    
+        
+    
+
+
+class ReptileEnclosure(Animal):
+    def __init__(self, name, species, reptiles):
+        super().__init__(name, species)
+        self.reptile = []
+
+
+
